@@ -12,13 +12,14 @@ body {
   min-height: 100vh;
   background: #251801;
   /* su dung hinh anh lam con tro */
-  /* cursor: url(""), pointer; */
+  cursor: url("pizza.png"), pointer;
 }
 .container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .container .face {
   position: relative;
